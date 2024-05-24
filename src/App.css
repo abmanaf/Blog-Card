@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+.card-container {
+  background-color: hsl(0, 0%, 100%);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1em;
+  border: 1px solid #000000;
+  filter: drop-shadow(0.5rem 0.5rem #000000);
+}
+img {
+  border-radius: 15px;
+}
+button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.course {
+  font-size: 20px;
+}
+.course:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.last-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-weight: 800;
+}
