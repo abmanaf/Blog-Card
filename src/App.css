@@ -23,6 +23,10 @@ body {
   filter: drop-shadow(0.5rem 0.5rem #000000);
   cursor: pointer;
 }
+.card-container:hover {
+  filter: drop-shadow(1rem 1rem #000000);
+  transition: 0.1s ease-in-out;
+}
 .image-container img {
   border-radius: 15px;
 }
@@ -41,10 +45,7 @@ button {
 
   cursor: pointer;
 }
-.card-container:hover {
-  filter: drop-shadow(1rem 1rem #000000);
-  transition: 0.1s ease-in-out;
-}
+
 .last-container {
   display: flex;
   align-items: center;
