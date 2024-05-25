@@ -1,5 +1,6 @@
 import React from 'react'
 import "./App.css"
+import Background_image from '../public/assets/images/illustration-article.svg'
 import Image_person from '../public/assets/images/image-avatar.webp'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className='card-container'>
       <div>
       <div className='image-container'>
-      <img src="./public/assets/images/illustration-article.svg" alt="" />
+      <img src={Background_image} alt="illustration-article" />
       </div>
       
       <div className='button'>
@@ -21,7 +22,7 @@ function App() {
       <p> These languages are the backbone of every <br /> website, defining structure, content, and <br /> presentation.</p>
      </div>
      <div className='last-container'>
-      <img src={Image_person} alt="" />
+      <img src={Image_person} alt="image-avatar" />
       <p>Greg Hooper</p>
      </div>
       </div>
