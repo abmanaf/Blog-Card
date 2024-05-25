@@ -21,6 +21,7 @@ body {
   padding: 1em;
   border: 1px solid #000000;
   filter: drop-shadow(0.5rem 0.5rem #000000);
+  cursor: pointer;
 }
 .image-container img {
   border-radius: 15px;
