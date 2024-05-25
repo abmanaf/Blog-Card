@@ -17,12 +17,12 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 1em;
   border: 1px solid #000000;
   filter: drop-shadow(0.5rem 0.5rem #000000);
 }
-img {
+.image-container img {
   border-radius: 15px;
 }
 button {
