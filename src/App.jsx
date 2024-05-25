@@ -8,12 +8,12 @@ function App() {
     
     <div className='card-container'>
       <div>
-      <div>
+      <div className='image-container'>
       <img src="./public/assets/images/illustration-article.svg" alt="" />
       </div>
       
       <div className='button'>
-        <button style={{fontWeight:'500'}}>Learning</button>
+        <button style={{fontWeight:'800'}}>Learning</button>
       </div>
      <div>
       <p>Published 21 Dec 2023</p>
