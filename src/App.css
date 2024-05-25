@@ -31,6 +31,7 @@ button {
   border: none;
   padding: 0.5em 1em;
   border-radius: 5px;
+  cursor: pointer;
 }
 .course {
   font-size: 20px;
