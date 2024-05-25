@@ -37,7 +37,12 @@ button {
 }
 .course:hover {
   color: hsl(47, 88%, 63%);
+
   cursor: pointer;
+}
+.card-container:hover {
+  filter: drop-shadow(1rem 1rem #000000);
+  transition: 0.1s ease-in-out;
 }
 .last-container {
   display: flex;
